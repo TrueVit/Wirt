@@ -12,6 +12,7 @@ namespace Wirt
         {
             Console.WriteLine("Test!!!");
             Console.WriteLine("FromMainToNotebook");
+            Console.WriteLine("FromLaptopToPC");
         }
     }
 }
