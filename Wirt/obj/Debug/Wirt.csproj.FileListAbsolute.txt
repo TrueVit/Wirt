@@ -1,0 +1,6 @@
+C:\Users\ulchenkovvg\Documents\GitHub\Wirt\Wirt\bin\Debug\Wirt.exe.config
+C:\Users\ulchenkovvg\Documents\GitHub\Wirt\Wirt\bin\Debug\Wirt.exe
+C:\Users\ulchenkovvg\Documents\GitHub\Wirt\Wirt\bin\Debug\Wirt.pdb
+C:\Users\ulchenkovvg\Documents\GitHub\Wirt\Wirt\obj\Debug\Wirt.csprojResolveAssemblyReference.cache
+C:\Users\ulchenkovvg\Documents\GitHub\Wirt\Wirt\obj\Debug\Wirt.exe
+C:\Users\ulchenkovvg\Documents\GitHub\Wirt\Wirt\obj\Debug\Wirt.pdb
