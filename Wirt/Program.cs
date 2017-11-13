@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using OpenQA.Selenium;
+using OpenQA.Selenium.Chrome;
+
 
 namespace Wirt
 {
@@ -13,6 +16,12 @@ namespace Wirt
             Console.WriteLine("Test!!!");
             Console.WriteLine("FromMainToNotebook");
             Console.WriteLine("FromLaptopToPC");
+            IWebDriver driver = new ChromeDriver();
+            driver.Url = "https://virtonomica.ru";
+            driver.FindElement(By.ClassName("dialog_login_opener")).Click();
+            //string page_text = driver.PageSource;
+            //Console.WriteLine(page_text);
+            //driver.Quit();
         }
     }
 }
