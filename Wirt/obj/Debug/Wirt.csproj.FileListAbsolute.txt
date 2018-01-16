@@ -12,3 +12,5 @@ D:\Dropbox\Programs\C#\Wirt\Wirt\obj\Debug\Wirt.exe
 D:\Dropbox\Programs\C#\Wirt\Wirt\obj\Debug\Wirt.pdb
 D:\Dropbox\Programs\C#\Wirt\Wirt\bin\Debug\WebDriver.dll
 D:\Dropbox\Programs\C#\Wirt\Wirt\bin\Debug\WebDriver.xml
+C:\Users\ulchenkovvg\Documents\GitHub\Wirt\Wirt\bin\Debug\WebDriver.dll
+C:\Users\ulchenkovvg\Documents\GitHub\Wirt\Wirt\bin\Debug\WebDriver.xml

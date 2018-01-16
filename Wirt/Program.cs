@@ -18,7 +18,8 @@ namespace Wirt
             Console.WriteLine("FromLaptopToPC");
             IWebDriver driver = new ChromeDriver();
             driver.Url = "https://virtonomica.ru";
-            driver.FindElement(By.ClassName("dialog_login_opener")).Click();
+            IWebElement elem = driver.FindElement(By.ClassName("dialog_login_opener"));
+            elem.Click();
             //string page_text = driver.PageSource;
             //Console.WriteLine(page_text);
             //driver.Quit();
