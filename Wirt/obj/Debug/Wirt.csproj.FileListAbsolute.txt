@@ -14,3 +14,4 @@ D:\Dropbox\Programs\C#\Wirt\Wirt\bin\Debug\WebDriver.dll
 D:\Dropbox\Programs\C#\Wirt\Wirt\bin\Debug\WebDriver.xml
 C:\Users\ulchenkovvg\Documents\GitHub\Wirt\Wirt\bin\Debug\WebDriver.dll
 C:\Users\ulchenkovvg\Documents\GitHub\Wirt\Wirt\bin\Debug\WebDriver.xml
+D:\Dropbox\Programs\C#\Wirt\Wirt\obj\Debug\Wirt.csproj.CoreCompileInputs.cache
