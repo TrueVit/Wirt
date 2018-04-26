@@ -26,18 +26,33 @@ namespace Wirt
             driver.FindElement(By.XPath("//*[@id=\"old\"]/form/label[2]/input")).SendKeys("wo7Kg0oB");
             driver.FindElement(By.XPath("//*[@id=\"old\"]/form/input[1]")).Click();
             driver.Url = "https://virtonomica.ru/vera/main/management_action/4785020/investigations/technologies";
-            foreach (IWebElement row in driver.FindElements(By.ClassName("tech_row"))  )
+            IWebElement subelem;
+            foreach (IWebElement row in driver.FindElements(By.ClassName("tech_row")))
             {
                 try
                 {
-                    IWebElement subelem = row.FindElement(By.ClassName("tech_title_cell"));
-                    Console.WriteLine(subelem.Text);
+                    subelem = row.FindElement(By.ClassName("tech_title_cell"));
                 }
                 catch
                 {
-                    //Console.WriteLine("Error!");
+                    continue;
                 }
-                //Console.WriteLine(subelem.Text);
+                Console.Write(subelem.Text.Split('\r')[0] + ":   ");
+                var TechLevel = 1;
+                foreach (IWebElement tech in row.FindElements(By.ClassName("tech_cell")))
+                {
+                    try
+                    {
+                        subelem = tech.FindElement(By.TagName("a"));
+                    }
+                    catch
+                    {
+                        continue;
+                    }
+                    TechLevel = Convert.ToInt32(subelem.Text,10);
+                    break;
+                }
+                Console.WriteLine(TechLevel);
             }
 
             //driver.Url = "https://virtonomica.ru/vera/main/company/view/4785020/unit_list";
